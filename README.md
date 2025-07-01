@@ -34,7 +34,7 @@ This project predicts individual medical insurance charges using personal and li
 3. Train-Test Splitting
 4. Model Training
 5. Model Evaluation using R² Score
-6. Custom Cost Prediction
+6. Cost Prediction
 
 ---
 
