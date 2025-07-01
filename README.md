@@ -54,16 +54,6 @@ This project predicts individual medical insurance charges using personal and li
 
 - Distribution plots for features
 - Model performance comparison
-- 
 
----
 
-## 🚀 Getting Started
 
-### 📦 Requirements
-
-Install all necessary Python packages:
-
-### bash
-
-pip install pandas numpy matplotlib seaborn scikit-learn xgboost
