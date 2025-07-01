@@ -1,8 +1,6 @@
-# Medical_Insurance_cost_prediction
-
 # 🩺 Insurance Cost Prediction using Machine Learning
 
-This project predicts individual medical insurance costs using personal and lifestyle information. We explore and compare two models: **Linear Regression** and **Random Forest Regressor**.
+This project predicts individual medical insurance charges using personal and lifestyle data. It applies and compares the performance of **Linear Regression** and **Random Forest Regressor**.
 
 ---
 
@@ -14,9 +12,9 @@ This project predicts individual medical insurance costs using personal and life
   - `sex`: Gender (male/female)
   - `bmi`: Body Mass Index
   - `children`: Number of children covered by insurance
-  - `smoker`: Whether the person smokes
+  - `smoker`: Smoking status
   - `region`: Region in the U.S.
-  - `charges`: Insurance cost (target variable)
+  - `charges`: Medical insurance cost (target variable)
 
 ---
 
@@ -24,46 +22,48 @@ This project predicts individual medical insurance costs using personal and life
 
 | Model              | Description                                              |
 |-------------------|----------------------------------------------------------|
-| Linear Regression  | A simple baseline regression model assuming linearity   |
-| Random Forest      | An ensemble-based model that handles non-linearity well |
+| Linear Regression  | Simple baseline regression assuming linearity           |
+| Random Forest      | Ensemble-based model handling non-linear relationships  |
 
 ---
 
 ## 🔁 Workflow
 
-1. Data Loading & Exploration
-2. Data Preprocessing (encoding categorical columns)
-3. Train-Test Split (80-20)
-4. Model Training (Linear & Random Forest)
-5. Model Evaluation (R² score)
-6. Cost Prediction on New Input
+1. Data Loading & Cleaning
+2. Categorical Feature Encoding
+3. Train-Test Splitting
+4. Model Training
+5. Model Evaluation using R² Score
+6. Custom Cost Prediction
 
 ---
 
-## 📈 Results (Sample)
+## 📈 Results (Example)
 
 | Metric        | Linear Regression | Random Forest |
 |---------------|-------------------|----------------|
-| R² (Train)    | 0.75              | 0.97           |
-| R² (Test)     | 0.73              | 0.91           |
+| R² (Train)    | 0.93              | 0.75           |
+| R² (Test)     | 0.83              | 0.74           |
 
-✅ **Random Forest** showed significantly better performance on test data.
+✅ Random Forest outperformed Linear Regression with better generalization.
 
 ---
 
 ## 📊 Visualizations
 
-- Correlation heatmap
-- Feature distribution plots
-- Actual vs Predicted scatter plots
-- Model performance comparison bar chart
+
+- Distribution plots for features
+- Model performance comparison
+- 
 
 ---
 
 ## 🚀 Getting Started
 
-### Requirements
-Install required libraries:
+### 📦 Requirements
 
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
+Install all necessary Python packages:
+
+### bash
+
+pip install pandas numpy matplotlib seaborn scikit-learn xgboost
