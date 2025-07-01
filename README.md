@@ -42,8 +42,8 @@ This project predicts individual medical insurance charges using personal and li
 
 | Metric        | Linear Regression | Random Forest |
 |---------------|-------------------|----------------|
-| R² (Train)    | 0.93              | 0.75           |
-| R² (Test)     | 0.83              | 0.74           |
+| R² (Train)    | 0.75              | 0.97           |
+| R² (Test)     | 0.74              | 0.83           |
 
 ✅ Random Forest outperformed Linear Regression with better generalization.
 
